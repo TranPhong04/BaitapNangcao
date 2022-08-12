@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="img" onclick="lol()" src="https://kiemtientuweb.com/ckfinder/userfiles/images/anh-gai-xinh/anh-gai-xinh-2.jpg" width="300px" height="250px">
+<script>
+    let count =1;
+    let image=document.getElementById("img");
+    function lol() {
+        if (count === 1) {
+            count++;
+            image.src = "https://tophinhanh.com/wp-content/uploads/2022/04/4_hinh-gai-xinh-cute-de-thuong-nhat-viet-nam.jpg"
+        }else{
+            count=1;
+            image.src ="https://kiemtientuweb.com/ckfinder/userfiles/images/anh-gai-xinh/anh-gai-xinh-2.jpg"
+        }
+    }
+</script>
+</body>
+</html>
