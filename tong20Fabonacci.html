@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fibonacci</title>
+</head>
+<body>
+<script>
+  let n1=0;
+  let n2=1;
+  let n3=0;
+  let i=1
+  let s=0;
+  while(i<=20){
+
+    n3=n1+n2;
+    s=s+n3;
+    n1=n2;
+    n2=n3;
+    i++;
+  }document.write(s)
+</script>
+</body>
+</html>
